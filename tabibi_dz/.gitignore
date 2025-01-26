@@ -4,7 +4,7 @@
 # Ignore Docker related files
 *.log
 *.swp
-Dockerfile*
+
 docker-compose.yml
 ../../dz_tabib_frontend/
 node_modules/
