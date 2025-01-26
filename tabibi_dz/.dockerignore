@@ -1,0 +1,39 @@
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+
+
+# Ignore Django static files (optional, if you're not collecting them in the image)
+staticfiles/
+static/
+
+# Ignore Django media files (if uploaded files are handled elsewhere)
+media/
+
+# Ignore logs and temporary files
+*.log
+*.sqlite3
+*.tmp
+*.bak
+*.swp
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore IDE and editor config files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Docker-related files (optional)
+docker-compose.override.yml
+
+# Ignore node_modules (if using npm/yarn for frontend in the same project)
+node_modules/
+build/
+dist/
